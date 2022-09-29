@@ -1,0 +1,49 @@
+/*selector universal*/
+*{
+    color:red;
+}
+
+/*selector de etiqueta*/
+nav{
+    background:steelblue;
+}
+
+h2{
+    color:blue;
+}
+
+/*seletor de clases*/
+.titulo{
+    text-align: center;
+}
+
+.titulo-borde{
+    border: 2px solid black;
+}
+
+/*selector de id*/
+
+#idsec{
+    border: 4px double black;
+}
+
+/*selectores de atributo*/
+[href]{
+    text-decoration: none;
+}
+
+[href="#"]{/*busqueda igualiiiiita*/
+    color:blue;
+}
+
+[href^="htttps"]{/*busqueda al inicio*/
+    color:olive;
+}
+
+[href$="..com"]{/*busqueda al final*/
+    text-decoration: underline;
+}
+
+[href*="www."]{/*busqueda en el medio*/
+border: 1px solid black;
+}
