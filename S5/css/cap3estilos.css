@@ -1,0 +1,24 @@
+/*selectores combinados*/
+.titulo,h3{
+    color:blue;
+}
+
+div.contenedor{
+    border: 2px dotted black;
+}
+
+/* selectores descendientes */
+div.contenedor>p{/*hijo directo*/
+    text-align: right;
+}
+div.contenedor p{/*contenido en (dentro)*/
+    color:red;
+}
+
+body>div{
+    background-color: yellow;
+}
+
+div.contenedor>div>p{
+    text-decoration: underline;
+}
